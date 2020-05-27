@@ -195,7 +195,7 @@ body {
     }
   }
 
-  @media (min-width: 1200px){
+  @media (min-width: 1200px) and (min-height: 730px){
     .site-title {
       font-size: 80px;
       margin-top: 20px;
