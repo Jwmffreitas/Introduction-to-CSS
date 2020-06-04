@@ -349,12 +349,12 @@ body {
     }
   }
 
-  .portfolio {
+  .habilidades {
     background-image: linear-gradient(to bottom, #4499ff, white);
     padding: 2em;
   }
 
-  .portfolio h2 {
+  .habilidades h2 {
     font-family: 'Audiowide', cursive;
     color: black;
     /* text-shadow: black 1px 1px 7px; */
@@ -363,34 +363,34 @@ body {
     z-index: 0;
   }
 
-  .portfolio .grid {
+  .habilidades .grid {
     display: grid;
     gap: 1em;
   }
 
   @media (min-width: 320px) {
-    .portfolio .grid {
+    .habilidades .grid {
       grid-template-columns: 320px;
       justify-content: center;
   }
 }
 
   @media (min-width: 340px) {
-    .portfolio .grid {
+    .habilidades .grid {
       grid-template-columns: 340px;
       justify-content: center;
   }
 }
 
 @media (min-width: 700px) {
-  .portfolio .grid {
+  .habilidades .grid {
     grid-template-columns: 340px 340px;
     justify-content: center;
   }
 }
 
 @media (min-width: 800px) {
-  .portfolio .grid {
+  .habilidades .grid {
     grid-template-columns: 400px 400px;
     justify-content: center;
   }
@@ -398,30 +398,30 @@ body {
 
 
   @media (min-width: 1480px) {
-    .portfolio .grid {
+    .habilidades .grid {
       grid-template-columns: 340px 340px 340px 340px;
       justify-content: center;
       padding: 0;
   }
 }
 
-  .portfolio figure {
+  .habilidades figure {
     text-align: center;
   }
 
-  .img-portfolio {
+  .img-habilidades {
     max-width: 95%;
     height: 200px;
     border-radius: 20%;
     transition: 500ms;
   }
 
-  .portfolio img:hover {
+  .habilidades img:hover {
     transform: scale(1.2);
     box-shadow: black 0px 0px 5px;
   }
 
-  .portfolio figcaption{
+  .habilidades figcaption{
     color: black;
     font-size: 15px;
     padding: 1.5em;
@@ -429,19 +429,19 @@ body {
   }
 
   @media (min-width: 600px) {
-    .portfolio figcaption {
+    .habilidades figcaption {
       font-size: 18px;
     }
   }
 
   @media (min-width: 700px) {
-    .portfolio figcaption {
+    .habilidades figcaption {
       font-size: 20px;
     }
   }
 
   @media (min-width: 800px) {
-    .portfolio figcaption {
+    .habilidade figcaption {
       font-size: 22px;
     }
   }
