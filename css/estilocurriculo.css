@@ -83,7 +83,7 @@
         padding-top: 0px;
         background-color: #496180;
         top: 272px;
-        left: 36px;
+        left: 10vw;
         border-width: medium;
         border-style: solid;
         border-color: white;
@@ -97,6 +97,13 @@
               left: 60px;
           }
       }
+ 
+      @media (min-height: 800px) {
+          .barratop {
+              top: 320px;
+              left: 11.5vw;
+          }
+      }
 
       .profile img {
           position: relative;
@@ -105,14 +112,22 @@
           height: 180.px;
           border: solid;
           border-color: white;
-          left: 90px;
-          top: -105px;
+          left: 25vw;
+          top: -17vh;
           z-index: 0;
       }
 
       @media (min-width: 400px) {
           .profile img {
             left: 112px;
+          }
+      }
+
+      @media (min-height: 800px) {
+          .profile img {
+              width: 200px;
+              height: 200px;
+              left: 23.5vw;
           }
       }
 
@@ -137,12 +152,18 @@
           }
       }
 
+      @media (min-height: 800px) {
+          .about p {
+              font-size: 16px;
+          }
+      }
+
       .barramid {
         position: absolute;
         padding-top: 0px;
         background-color: #496180;
         top: -130px;
-        left: 36px;
+        left: 10vw;
         border-width: medium;
         border-style: solid;
         border-color: white;
@@ -155,5 +176,13 @@
               top: -140px;
               left: 60px;
               height: 230px;
+          }
+      }
+
+      @media (min-height: 800px) {
+          .barramid {
+              top: -150px;
+              height: 250px;
+              left: 11.5vw;
           }
       }
