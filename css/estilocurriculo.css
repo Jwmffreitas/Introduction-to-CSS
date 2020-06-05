@@ -63,7 +63,7 @@
         text-align: center;
         position: absolute;
         top: 0px;
-        left: 17vw;
+        left: 61px;
         color: white;
         font-size: 3em;
         font-family: 'Baloo Chettan 2', cursive;
@@ -73,20 +73,29 @@
         text-align: center;
         position: absolute;
         top: 60px;
-        left: 3vw;
+        left: 12px;
         color: white;
     }
 
     .barratop {
         position: absolute;
-        width: 1000px;
+        width: 100px;
         padding-top: 0px;
         background-color: #496180;
         top: 272px;
-        left: 10vw;
+        left: 36px;
         border-width: medium;
         border-style: solid;
         border-color: white;
+        width: 288px;
+        height: 96px;
+      }
+
+      @media (min-width: 400px){
+          .barratop {
+              top: 300px;
+              left: 60px;
+          }
       }
 
       .profile img {
@@ -96,9 +105,15 @@
           height: 180.px;
           border: solid;
           border-color: white;
-          left: 25vw;
+          left: 90px;
           top: -105px;
           z-index: 0;
+      }
+
+      @media (min-width: 400px) {
+          .profile img {
+            left: 112px;
+          }
       }
 
       .about {
@@ -116,13 +131,29 @@
           color: white;
       }
 
+      @media (min-width: 400px) {
+          .about p {
+              font-size: 15px;
+          }
+      }
+
       .barramid {
         position: absolute;
         padding-top: 0px;
         background-color: #496180;
         top: -130px;
-        left: 10vw;
+        left: 36px;
         border-width: medium;
         border-style: solid;
         border-color: white;
+        width: 288px;
+        height: 192px;
+      }
+
+      @media (min-width: 400px){
+          .barramid {
+              top: -140px;
+              left: 60px;
+              height: 230px;
+          }
       }
