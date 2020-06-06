@@ -142,6 +142,12 @@
         }
       }
 
+      @media (width: 800px) and (height: 600px) {
+          .barratop {
+              left: 25%;
+          }
+      }
+
       @media (min-height: 1200px) {
         .barratop {
             width: 73vw;
@@ -180,6 +186,15 @@
             width: 250px;
             height: 250px;
             top: -25vw;
+        }
+    }
+
+    @media (width: 800px) and (height: 600px) {
+        .profile img {
+            left: 38%;
+            width: 200px;
+            height: 200px;
+            top: -27vh;
         }
     }
 
@@ -266,6 +281,14 @@
             height: 30vw;
         }
     }
+
+      @media (width:800px) and (height:600px) {
+          .barramid {
+              left: 25%;
+              top: -150px;
+          }
+      }  
+
 
     @media (min-height: 1200px) {
         .barramid {
