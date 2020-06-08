@@ -280,12 +280,13 @@ body {
     padding-bottom: 0;
   }
 
-  @media (min-widith: 1600px)
+  @media (min-widith: 1600px) {
   .sobre {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
   }
+}
 
   .sobre h2 {
     text-align: center;
