@@ -71,9 +71,21 @@
         }
     }
 
-    @media (min-width:370px) and (max-width: 400px) {
+    @media (min-width:370px) and (max-width: 500px) {
         .site-title {
             font-size: 3.6em;
+        }
+    }
+
+    @media (min-width:600px) and (max-width: 800px) {
+        .site-title {
+            font-size: 5em;
+        }
+    }
+
+    @media (min-width:800px) and (max-width: 1100px) {
+        .site-title {
+            font-size: 5em;
         }
     }
 
@@ -90,9 +102,21 @@
         }
     }
 
-    @media (min-width:370px) and (max-width: 400px) {
+    @media (min-width:370px) and (max-width: 500px) {
         .site-subtitle {
             font-size: 1.5em;
+        }
+    }
+
+    @media (min-width:600px) and (max-width: 800px) {
+        .site-subtitle {
+            font-size: 2.2em;
+        }
+    }
+
+    @media (min-width:800px) and (max-width: 1100px) {
+        .site-subtitle {
+            font-size: 2.5em;
         }
     }
 
@@ -133,6 +157,27 @@
           }
       }
 
+      @media (min-width:400px) and (max-width:600px) {
+        .barratop {
+            width: 80vw;
+            height: 15vh;
+        }
+    }
+
+    @media (min-width:600px) and (max-width:800px) {
+        .barratop {
+            width: 70vw;
+            height: 15vh;
+        }
+    }
+
+    @media (min-width:800px) and (max-width:1100px) {
+        .barratop {
+            width: 70vw;
+            height: 11vh;
+        }
+    }
+
       .profile {
           display: flex;
           align-items: center;
@@ -153,6 +198,20 @@
         .profile img{
             width: 170px;
             height: 170px;
+        }
+      }
+
+      @media (min-width:600px) and (max-width: 800px) {
+        .profile img{
+            width: 240px;
+            height: 240px;
+        }
+      }
+
+      @media (min-width:800px) and (max-width: 1100px) {
+        .profile img{
+            width: 280px;
+            height: 280px;
         }
       }
 
@@ -185,6 +244,19 @@
         }
     }
 
+    @media (min-width:600px) and (max-width:800px) {
+        .about p {
+            font-size: 1.7em;
+        }
+    }
+
+    @media (min-width:800px) and (max-width:1100px) {
+        .about p {
+            font-size: 1.95em;
+        }
+    }
+
+
       .barramid {
         position: relative;
         padding-top: 0px;
@@ -207,5 +279,19 @@
         .barramid {
             width: 80vw;
             height: 35vh;
+        }
+    }
+
+    @media (min-width:600px) and (max-width:800px){
+        .barramid {
+            width: 70vw;
+            height: 20vh;
+        }
+    }
+
+    @media (min-width:800px) and (max-width:1100px){
+        .barramid {
+            width: 70vw;
+            height: 15vh;
         }
     }
