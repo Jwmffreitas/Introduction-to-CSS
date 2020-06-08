@@ -15,7 +15,7 @@
     }
 
     .menu {
-      /*  background-color: white; */
+        /*background-color: white;*/
         position: fixed;
         width: 20vw;
         font-family: Arial;
@@ -54,9 +54,7 @@
 
     header {
         height: 10vh;
-        /*background-image:url(../img/wallpaperfrontend.jpg); */
         width: 100vw;
-        opacity: 50%;
     }
 
     .site-title {
@@ -66,11 +64,36 @@
         font-size: 4em;
         font-family: 'Baloo Chettan 2', cursive;
     }
+
+    @media (min-width:300px) and (max-width: 370px) {
+        .site-title {
+            font-size: 3.5em;
+        }
+    }
+
+    @media (min-width:370px) and (max-width: 400px) {
+        .site-title {
+            font-size: 3.6em;
+        }
+    }
+
     .site-subtitle {
         text-align: center;
         position: relative;
         font-size: 2em;
         color: white;
+    }
+
+    @media (min-width:300px) and (max-width: 370px) {
+        .site-subtitle {
+            font-size: 1.3em;
+        }
+    }
+
+    @media (min-width:370px) and (max-width: 400px) {
+        .site-subtitle {
+            font-size: 1.5em;
+        }
     }
 
     .base {
@@ -103,6 +126,13 @@
         height: 16vh;
       }
 
+      @media (min-width:300px) and (max-width:400px) {
+          .barratop {
+              width: 80vw;
+              height: 17vh;
+          }
+      }
+
       .profile {
           display: flex;
           align-items: center;
@@ -112,11 +142,18 @@
       .profile img {
           position: relative;
           border-radius: 50%;
-          width: 190px;
-          height: 190.px;
+          width: 220px;
+          height: 220px;
           border: solid;
           border-color: white;
           z-index: 0;
+      }
+
+      @media (min-width:300px) and (max-width: 400px) {
+        .profile img{
+            width: 170px;
+            height: 170px;
+        }
       }
 
       .about {
@@ -131,10 +168,22 @@
           margin: 12px;
           padding-left: 10px;
           padding-right: 10px;
-          font-size: 1.3em;
+          font-size: 1.4em;
           font-family: 'Baloo Chettan 2', cursive;
           color: white;
       }
+
+      @media (min-width:300px) and (max-width:370px) {
+          .about p {
+              font-size: 1.13em;
+          }
+      }
+
+      @media (min-width:370px) and (max-width:400px) {
+        .about p {
+            font-size: 1.3em;
+        }
+    }
 
       .barramid {
         position: relative;
@@ -146,3 +195,17 @@
         width: 40vw;
         height: 20vh;
       }
+
+      @media (min-width:300px) and (max-width:400px){
+          .barramid {
+              width: 80vw;
+              height: 35vh;
+          }
+      }
+
+      @media (min-width:400px) and (max-width:600px){
+        .barramid {
+            width: 80vw;
+            height: 35vh;
+        }
+    }
