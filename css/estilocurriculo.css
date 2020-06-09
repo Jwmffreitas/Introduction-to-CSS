@@ -190,7 +190,14 @@
         }
     }
 
-    @media (min-width:900px) and (max-width:1100px) {
+    @media (min-width:900px) and (max-width:999px) {
+        .barratop {
+            width: 70vw;
+            height: 15vh;
+        }
+    }
+
+    @media (min-width:1000px) and (max-width:1100px) {
         .barratop {
             width: 70vw;
             height: 11vh;
@@ -329,6 +336,13 @@
     }
 
     @media (min-width:900px) and (max-width:1100px){
+        .barramid {
+            width: 70vw;
+            height: 28vh;
+        }
+    }
+
+    @media (min-width:1000px) and (max-width:1100px){
         .barramid {
             width: 70vw;
             height: 15vh;
