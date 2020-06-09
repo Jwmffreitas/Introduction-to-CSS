@@ -24,4 +24,4 @@ Exemplo para ajustes manuais:
 }
 ```
 ![Home](https://i.imgur.com/itBgdjp.jpg)
-![Page - Currículo](https://i.imgur.com/NYg2DUt.jpg)
+![Page - Currículo](https://i.imgur.com/PmC4uMT.jpg)
