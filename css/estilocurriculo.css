@@ -348,3 +348,16 @@
             height: 15vh;
         }
     }
+
+    .contato {
+        position: relative;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+    }
+    .contato .grid {
+        display: grid;
+        grid-template-columns: 60px 60px 60px 60px;
+    }
