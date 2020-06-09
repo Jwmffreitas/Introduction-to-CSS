@@ -6,12 +6,24 @@
   
   body {
       /* background: #4499ff; */
-      background-size: auto 100vh;
+      background-size: auto 105vh;
       font-family: 'Audiowide', cursive;
       height: 100vh;
       font-size: 12px;
       width: 100vw;
       background-image: linear-gradient(to bottom, black, #224C80);
+    }
+
+    @media (min-width:300px) and (max-width:350px){
+        body {
+            background-size: auto 110vh;
+        }
+    }
+
+    @media (min-width:400px) and (max-width:450px){
+        body {
+            background-size: auto 110vh;
+        }
     }
 
     .menu {
@@ -351,13 +363,14 @@
 
     .contato {
         position: relative;
+        top: 18px;
         height: 10vh;
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 50px;
     }
-    .contato .grid {
+    /*.contato .grid {
         display: grid;
         grid-template-columns: 60px 60px 60px 60px;
-    }
+    } */
