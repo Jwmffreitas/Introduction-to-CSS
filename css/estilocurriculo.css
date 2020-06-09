@@ -83,7 +83,13 @@
         }
     }
 
-    @media (min-width:800px) and (max-width: 1100px) {
+    @media (min-width:800px) and (max-width:950px) {
+        .site-subtitle {
+            font-size: 4em;
+        }
+    }
+
+    @media (min-width:950px) and (max-width: 1100px) {
         .site-title {
             font-size: 5em;
         }
@@ -114,7 +120,13 @@
         }
     }
 
-    @media (min-width:800px) and (max-width: 1100px) {
+    @media (min-width:800px) and (max-width:950px) {
+        .site-subtitle {
+            font-size: 2em;
+        }
+    }
+
+    @media (min-width:950px) and (max-width: 1100px) {
         .site-subtitle {
             font-size: 2.5em;
         }
@@ -171,7 +183,14 @@
         }
     }
 
-    @media (min-width:800px) and (max-width:1100px) {
+    @media (min-width:800px) and (max-width:900px) {
+        .barratop {
+            width: 70vw;
+            height: 18vh;
+        }
+    }
+
+    @media (min-width:900px) and (max-width:1100px) {
         .barratop {
             width: 70vw;
             height: 11vh;
@@ -208,7 +227,14 @@
         }
       }
 
-      @media (min-width:800px) and (max-width: 1100px) {
+      @media (min-width:800px) and (max-width: 950px) {
+        .profile img{
+            width: 220px;
+            height: 220px;
+        }
+      }
+
+      @media (min-width:950px) and (max-width: 1100px) {
         .profile img{
             width: 280px;
             height: 280px;
@@ -250,7 +276,13 @@
         }
     }
 
-    @media (min-width:800px) and (max-width:1100px) {
+    @media (min-width:800px) and (max-width:950px) {
+        .about p {
+            font-size: 1.8em;
+        }
+    }
+
+    @media (min-width:950px) and (max-width:1100px) {
         .about p {
             font-size: 1.95em;
         }
@@ -289,7 +321,14 @@
         }
     }
 
-    @media (min-width:800px) and (max-width:1100px){
+    @media (min-width:800px) and (max-width:900px){
+        .barramid {
+            width: 70vw;
+            height: 32vh;
+        }
+    }
+
+    @media (min-width:900px) and (max-width:1100px){
         .barramid {
             width: 70vw;
             height: 15vh;
