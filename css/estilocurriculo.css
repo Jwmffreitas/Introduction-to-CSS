@@ -369,8 +369,15 @@
         justify-content: center;
         align-items: center;
         font-size: 50px;
+        text-shadow: 0px 0px 5px;
     }
     /*.contato .grid {
         display: grid;
         grid-template-columns: 60px 60px 60px 60px;
     } */
+
+    .contato :hover {
+        color: #4499ff;
+        transition: 800ms;
+        text-shadow: 0px 0px 5px;
+    }
