@@ -6,12 +6,13 @@
   
   body {
       /* background: #4499ff; */
-      background-size: auto 105vh;
+      background-size: auto 100%;
       font-family: 'Audiowide', cursive;
       height: 100vh;
       font-size: 12px;
       width: 100vw;
       background-image: linear-gradient(to bottom, black, #224C80);
+      background-repeat: no-repeat;
     }
 
     @media (min-width:300px) and (max-width:350px){
@@ -360,6 +361,36 @@
             height: 15vh;
         }
     }
+
+    /* .marketing {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        height: 50vh;
+    }
+
+    .marketing .barramarketing {
+        position: relative;
+        top: -130px;
+        background: transparent;
+        border-width: medium;
+        border-style: solid;
+        border-color: white;
+        width: 30vw;
+        height: 10vh;
+        text-align: center;
+        left: 5vw;
+        color: white;
+    }
+
+    .barramarketing h1 {
+        font-size: 30px;
+    }
+
+    .barramarketing p {
+        font-size: 16px;
+    } */
 
     .contato {
         position: relative;
